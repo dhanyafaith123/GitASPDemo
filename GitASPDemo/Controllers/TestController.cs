@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GitASPDemo.Controllers
 {
@@ -6,6 +7,8 @@ namespace GitASPDemo.Controllers
     {
         public IActionResult Index()
         {
+            //changes made in dev branch
+            Console.WriteLine("Changes in development branch");
             return View();
         }
     }
