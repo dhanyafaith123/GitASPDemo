@@ -7,7 +7,7 @@ namespace GitASPDemo.Controllers
         public IActionResult Index()
         {
             //changes made in hima branch
-            System.Console.WriteLine("Changes in hima branch");
+            System.Console.WriteLine("Change 2");
             return View();
         }
     }
